@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkrestaurnt</title>
+    <link rel="stylesheet" href="./restyle/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div id="brand">
+            <a href="/">Nk Restaurnat</a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index1.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus1.html">About Us</a>
+                </li>
+                <li>
+                    <a href="menu1.html">Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="active">Gallery</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li>
+                    <a href="index1.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus1.html">About Us</a>
+                </li>
+                <li>
+                    <a href="menu1.html">Menu
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="active">Gallery</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </header>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .column {
+            -ms-flex: 25%;
+            /* IE10 */
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+            .column {
+                -ms-flex: 50%;
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                -ms-flex: 70%;
+                flex: 80%;
+                max-width: 50%;
+            }
+        }
+    </style>
+
+    <body>
+
+        <!-- Header -->
+        <div class="header">
+            <h2>Our Gallery Show</h2></br>
+            <p>Which one is yours? </p>
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="row">
+            <div class="column">
+                <img src="./images/anboesti-kitchen.jpg"
+                    style="width:100%">
+                <img src="./images/__opt__aboutcom__coeus__resources__content_migration__liquor__2018__07__20113334__tequila-sunrise-720x720-article-ea5f456d4fa54cde9bf969429bfc01e8.jpg"
+                    style="width:100%">
+                    <h2>Which one is yours?</h2>
+                    <img src="./images/food-waffle-berry-breakfast-fruit-hd-wallpaper-thumb.jpg"
+                    style="width:100%">
+                    <img src="./images/anboesti-kitchen.jpg"
+                    style="width:100%">
+                
+                    <img src="./images/DSC_0412.jpg"
+                    style="width:100%">
+                
+                    <img src="./images/Gralic_Crust_Veggie_Pizza.jpg"
+                    style="width:100%">
+                
+                    <img src="./images/frozenorangemargaritasunrise.jpg"
+                    style="width:100%">
+                
+                    <img src="./images/lit.jpg"
+                    style="width:100%">
+                
+                <h2>Which one is yours?</h2>
+            </div>
+            <div class="column">
+                <img src="./images/adobestock_267513346.jpeg"
+                    style="width:100%">
+                
+                    <img src="./images/food-waffle-berry-breakfast-fruit-hd-wallpaper-thumb.jpg"
+                    style="width:100%">
+                    <img src="./images/frozenorangemargaritasunrise.jpg"
+                    style="width:100%">
+                
+                    <img src="./images/Gralic_Crust_Veggie_Pizza.jpg"
+                    style="width:100%">
+                    <img src="./images/DSC_0412.jpg"
+                    style="width:100%">
+                    <img src="./images/anboesti-kitchen.jpg"
+                    style="width:100%">
+                
+            </div>
+            <div class="column">
+                <img src="./images/lobstersavannah.jpg"
+                style="width:100%">
+                <img src="./images/patio-restaurant-at-nk.jpg"
+                style="width:100%">
+                <img src="./images/suchi_3.jpg"
+                style="width:100%">
+                <img src="./images/istockphoto-540405174-170667a.jpg"
+                style="width:100%">
+                <img src="./images/juice-glass-strawberry-mulberry-wallpaper-preview.jpg"
+                style="width:100%">
+                <img src="./images/grilledcheesethecheesebaryqgdiykidskit.jpg"
+                style="width:100%">
+                <img src="./images/istockphoto-157431311-612x612.jpg"
+                style="width:100%">
+                
+
+            </div>
+            <div class="column">
+                <img src="./images/seafood-lobster-boston-lobster-gourmet-dishes-vegetables-royalty-free-thumbnail.jpg"
+                style="width:100%">
+                <img src="./images/istockphoto-1329114830-170667a.jpg" style="width:100%">
+                <img src="./images/splash.png" style="width:100%">
+                <img src="./images/boiled-spiny-lobsters-asia-seafood-white-background_192913-19.jpg" style="width:100%">
+                <img src="./images/Cosmo-main.jpg" style="width:100%">
+                <img src="./images/c3a1820acb92e493b48bd4c277db44a8.jpg" style="width:100%">
+            </div>
+        </div> <br><br>
+
+    </body>
+
+</html>
+
+
+
+<footer>
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-link">
+                <ul>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+
+                </ul>
+            </div>
+
+            <div class="quick-link">
+                <ul>
+                    <li class="quick-items"><a href="index1.html">Home</a></li>
+                    <li class="quick-items"><a href="aboutus1.html">About Us</a></li>
+                    <li class="quick-items"><a href="menu1.html">Menu</a></i></li>
+                    <li class="quick-items"><a href="gallery.html">Gallery</a></i></li>
+                    <li class="quick-items"><a href="contactus.html">Contact Us</a></i></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="outer-footer">
+            copyright &copy;Nk restaurnat 2022 all right reversed
+        </div>
+
+    </footer>
+
+    <!--footer sectin end-->
+
+
+
+    </body>
+
+    </html>
+    <script src="index.js"></script>
+    </body>
+
+    </html>
