@@ -234,14 +234,15 @@ ul li:hover{
         }
         section#section_jumbotron h1{
             color: white;
-            font-size:4vw;
+            font: size 45px;
             font-weight: bold;
             
         }
         .mt-8{
             margin-top : 20px;
             color: white;
-            font-size: 1.5vw}
+            font: size 20px;
+        }
           .mt-9{
               margin-bottom: 12px;
               color: gray;
