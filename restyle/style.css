@@ -11,6 +11,9 @@ body{
     
 }
 
+header nav {
+    padding-right: 23px;
+}
 header a {
     text-decoration: none;
 
@@ -234,7 +237,7 @@ ul li:hover{
         }
         section#section_jumbotron h1{
             color: white;
-            font-size:45px;
+            font-size:48px;
             font-weight: bold;
             
         }
