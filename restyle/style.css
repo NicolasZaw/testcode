@@ -241,6 +241,9 @@ ul li:hover{
             font-weight: bold;
             
         }
+        .mt-7{
+            font-family: 'Spirax', cursive;
+             }
         .mt-8{
             margin-top : 20px;
             color: white;
